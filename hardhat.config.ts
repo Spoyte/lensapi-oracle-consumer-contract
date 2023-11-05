@@ -28,9 +28,28 @@ const config: HardhatUserConfig = {
       url: process.env.MUMBAI_RPC_URL ?? '',
       accounts: [DEPLOYER_PRIVATE_KEY],
     },
+    coreDAOTestnet: {
+      url: process.env.MUMBAI_RPC_URL ?? '',
+      accounts: [DEPLOYER_PRIVATE_KEY],
+      chainId: 1115,
+      urls: {
+        apiURL: "https://api-scan.test.btcs.network/api",
+        browserURL: "https://scan.test.btcs.network/"
+      },
+    },
   },
   etherscan: {
     apiKey: POLYGONSCAN_API_KEY,
+    customChains: [
+      {
+        network: "coreDAOTestnet",
+        chainId: 1115,
+        urls: {
+          apiURL: "https://scan.test.btcs.network/api",
+          browserURL: "https://scan.test.btcs.network"
+        }
+      }
+    ]  
   },
 };
 
