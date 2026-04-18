@@ -859,10 +859,10 @@
     webpack-merge "^5.9.0"
     webpack-virtual-modules "^0.5.0"
 
-"@phala/pink-env@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@phala/pink-env/-/pink-env-1.0.10.tgz#c0b8bb89464f92ebd9d7ac285c5af3a5b7cdbaf2"
-  integrity sha512-3AfsyC3JncTMCfNbXZYEn6LRDs5wAABTb17KH72+/s3mg4EG3iY7layxiTRsTqauuq+eQ1RcBrXLgUBdp/Mcgg==
+"@phala/pink-env@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@phala/pink-env/-/pink-env-1.0.13.tgz#8dda19538733588f7fb9c5d81f61bf118d37d63d"
+  integrity sha512-yo/mxBRs+auJz7/k3jeSiQFk6UZpvAdivrFPpQZb2a76vrSLHH5eU86CuZedpvZNBggUde7QUVo8TT6MGQWV+Q==
 
 "@phala/sdk@^0.5.3-nightly-20231011-1", "@phala/sdk@^0.5.3-nightly-20231012":
   version "0.5.3-nightly-20231012"
